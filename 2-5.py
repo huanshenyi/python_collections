@@ -29,6 +29,8 @@ s3 = list_3.keys()
 
 s4=s1 & s2 & s3
 print(s4)
-
+"""かつ全ての得点も取得"""
+for x in s4:
+    print(x, (list_1[x]+list_2[x]+list_3[x]))
 
 
