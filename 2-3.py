@@ -1,4 +1,5 @@
 from random import randint
+"""数の大きい順で並ぶ"""
 
 d = {k: randint(60, 100) for k in 'abcdefg'}
 print(d)
