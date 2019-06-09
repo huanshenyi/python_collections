@@ -1,0 +1,5 @@
+from operator import itemgetter
+list_name = [('xx', 123), ('yy', 9999), ('xx', 789), ('yy', 'das'), ('cc', 'dasa')]
+zz = sorted(list_name, key=itemgetter(0))
+for i in zz:
+    print(i)
